@@ -5,14 +5,14 @@
 **Статус:** New
 **Severity:** Major
 **Priority:** Medium
-**Дата обнаружения:** ГГГГ-ММ-ДД
+**Дата обнаружения:** 2026-11-02
 **Автор:** Амангельдыев Эзиз
 **Связанный тест-кейс:** TC-CAT-08
 
 ### Окружение
 - Приложение: https://www.saucedemo.com
-- Браузер / версия: Chrome (указать версию)
-- ОС: (указать)
+- Браузер / версия: Chrome (156.0.8078.74)
+- ОС: (Windows 10)
 - Пользователь: `problem_user` / `secret_sauce`
 
 ### Шаги воспроизведения
@@ -28,4 +28,4 @@
 У каждого товара своё изображение, как у `standard_user`.
 
 ### Вложения
-`screenshots/BUG-001-problem-user.png`, `screenshots/BUG-001-standard-user.png` (добавьте свои)
+`screenshots/BUG-001-problem-user.png`, `screenshots/BUG-001-standard-user.png`
