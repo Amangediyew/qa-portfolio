@@ -28,4 +28,4 @@
 Оформление заказа с пустой корзиной невозможно: кнопка Checkout недоступна, либо отображается сообщение, что корзина пуста.
 
 ### Вложения
-`screenshots/BUG-005-empty-cart-checkout.png`, `screenshots/BUG-005-empty-cart-complete.png`
+screenshots/BUG-005.gif
