@@ -24,4 +24,4 @@
 Товары упорядочены по цене по возрастанию: от $7.99 до $49.99.
 
 ### Вложения
-screenshots/BUG-001-problem-user.png, screenshots/BUG-001-standard-user.png
+screenshots/BUG-002.png
