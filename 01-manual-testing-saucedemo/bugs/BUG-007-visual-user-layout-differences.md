@@ -1,4 +1,4 @@
-## BUG-008: [UI] У visual_user смещены иконка корзины и кнопка Add to cart у Red T-Shirt
+## BUG-006: [UI] У visual_user смещены иконка корзины и кнопка Add to cart у Red T-Shirt
 
 **Статус:** New
 **Severity:** Minor
@@ -26,4 +26,4 @@
 Расположение элементов совпадает с `standard_user`: иконка корзины в правом верхнем углу, кнопки внутри карточек, заголовки выровнены.
 
 ### Вложения
-`screenshots/BUG-007.png`
+`screenshots/BUG-006.png`
