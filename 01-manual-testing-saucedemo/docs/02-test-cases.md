@@ -17,7 +17,7 @@
 | TC-AUTH-03 | High | Вход с неверным логином | Открыта страница входа | 1. Ввести `unknown_user`<br>2. Ввести `secret_sauce`<br>3. Нажать Login | Ошибка: «Epic sadface: Username and password do not match any user in this service» | Pass |
 | TC-AUTH-04 | High | Вход с пустыми полями | Открыта страница входа | 1. Оставить оба поля пустыми<br>2. Нажать Login | Ошибка: «Epic sadface: Username is required» | Pass |
 | TC-AUTH-05 | Medium | Вход без пароля | Открыта страница входа | 1. Ввести `standard_user`<br>2. Пароль не вводить<br>3. Нажать Login | Ошибка: «Epic sadface: Password is required» | Pass |
-| TC-AUTH-06 | Medium | Вход без логина | Открыта страница входа | 1. Логин не вводить<br>2. Ввести `secret_sauce`<br>3. Нажать Login | Ошибка: «Epic sadface: Username is required» | Not run |
+| TC-AUTH-06 | Medium | Вход без логина | Открыта страница входа | 1. Логин не вводить<br>2. Ввести `secret_sauce`<br>3. Нажать Login | Ошибка: «Epic sadface: Username is required» | Pass |
 | TC-AUTH-07 | High | Вход заблокированного пользователя | Открыта страница входа | 1. Ввести `locked_out_user`<br>2. Ввести `secret_sauce`<br>3. Нажать Login | Ошибка: «Epic sadface: Sorry, this user has been locked out.» Вход не выполнен | Not run |
 | TC-AUTH-08 | Medium | Логин чувствителен к регистру | Открыта страница входа | 1. Ввести `Standard_User`<br>2. Ввести `secret_sauce`<br>3. Нажать Login | Вход не выполнен, отображается ошибка о неверных данных | Not run |
 | TC-AUTH-09 | Medium | Закрытие сообщения об ошибке | Выполнена попытка входа с ошибкой | 1. Нажать на крестик в сообщении об ошибке | Сообщение скрывается, подсветка полей снимается | Not run |
