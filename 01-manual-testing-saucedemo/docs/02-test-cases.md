@@ -13,7 +13,7 @@
 | ID | Приоритет | Название | Предусловия | Шаги | Ожидаемый результат | Статус |
 |---|---|---|---|---|---|---|
 | TC-AUTH-01 | High | Успешный вход стандартным пользователем | Открыта страница входа | 1. Ввести `standard_user`<br>2. Ввести `secret_sauce`<br>3. Нажать Login | Открыта страница `/inventory.html`, отображается список товаров | Pass |
-| TC-AUTH-02 | High | Вход с неверным паролем | Открыта страница входа | 1. Ввести `standard_user`<br>2. Ввести `wrong_pass`<br>3. Нажать Login | Остаёмся на странице входа. Ошибка: «Epic sadface: Username and password do not match any user in this service» | Not run |
+| TC-AUTH-02 | High | Вход с неверным паролем | Открыта страница входа | 1. Ввести `standard_user`<br>2. Ввести `wrong_pass`<br>3. Нажать Login | Остаёмся на странице входа. Ошибка: «Epic sadface: Username and password do not match any user in this service» | Pass |
 | TC-AUTH-03 | High | Вход с неверным логином | Открыта страница входа | 1. Ввести `unknown_user`<br>2. Ввести `secret_sauce`<br>3. Нажать Login | Ошибка: «Epic sadface: Username and password do not match any user in this service» | Not run |
 | TC-AUTH-04 | High | Вход с пустыми полями | Открыта страница входа | 1. Оставить оба поля пустыми<br>2. Нажать Login | Ошибка: «Epic sadface: Username is required» | Not run |
 | TC-AUTH-05 | Medium | Вход без пароля | Открыта страница входа | 1. Ввести `standard_user`<br>2. Пароль не вводить<br>3. Нажать Login | Ошибка: «Epic sadface: Password is required» | Not run |
