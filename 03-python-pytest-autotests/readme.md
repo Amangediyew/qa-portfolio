@@ -21,11 +21,13 @@
 ## Структура проекта
 
 ```
-├── pages/               # Page Object: LoginPage, InventoryPage
-├── tests/               # test_login.py, test_cart.py
-├── conftest.py          # фикстуры и скриншот при падении теста
-├── pytest.ini           # base_url и настройки Allure
-└── requirements.txt
+├── pages/                    # Page Object: LoginPage, InventoryPage
+├── tests/                    # test_login.py, test_cart.py
+├── conftest.py               # фикстуры и скриншот при падении теста
+├── pytest.ini                # base_url и настройки Allure
+├── requirements.txt
+├── allure-overview.png       # скриншот отчёта: общий результат прогона
+└── allure-failed-test.png    # скриншот отчёта: пример упавшего теста
 ```
 
 ## Что используется в проекте
@@ -67,13 +69,13 @@ pytest --tracing retain-on-failure   # трейс Playwright для упавши
 
 ## Отчёт Allure
 
-Общая картина прогона:
+Результат прогона: 9 тестов, все пройдены.
 
-![Allure Overview](docs/allure-overview.png)
+![Allure Overview](allure-overview.png)
 
-Упавший тест со скриншотом страницы. Скриншот сделан на намеренно сломанном демо-тесте, чтобы показать, как выглядит падение. В репозитории этого теста нет.
+Пример упавшего теста в отчёте: виден текст ошибки (ожидался счётчик корзины «5», фактически «1»). Этот снимок сделан на намеренно сломанном демо-тесте, чтобы показать, как выглядит падение. В репозитории этого теста нет.
 
-![Allure: упавший тест](docs/allure-failed-test.png)
+![Allure: упавший тест](allure-failed-test.png)
 
 ## Планы
 
